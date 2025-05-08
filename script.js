@@ -16,10 +16,10 @@ function setupLevelPage() {
 
     // シェアボタンにイベント設定
     shareButton.addEventListener("click", function () {
-      const appUrl = `https://your-app.com/level${level}.html`;
+      const appUrl = `https://my-app-dr43.onrender.com`;
       const tweetText = encodeURIComponent(message);
-      const tweetLink = encodeURIComponent(appUrl);
-      const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${tweetLink}`;
+      const encodedUrl = encodeURIComponent(appUrl);
+      const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${encodedUrl}`;
       window.open(tweetUrl, "_blank");
     });
   }
