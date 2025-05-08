@@ -1,0 +1,118 @@
+
+/* ここからindex.html */
+body {
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .index-main {
+  text-align: center;
+  }
+
+  .index-content {
+    margin-top: 100px;
+  }
+
+  .index-content h1 {
+    font-size: 50px;
+  }
+
+  .start-button {
+    margin-top: 200px;
+    display: block;
+  }
+
+
+
+  /* ここからqustion1.html */
+
+.question1-main {
+  text-align: center;
+}  
+
+  .question1-content {
+    border: 2px solid black;
+    padding: 200px 0;
+    margin-top: 100px;
+  }
+
+  .question1-content h1 {
+    margin-bottom: 100px;
+  }
+
+  .question1-content li {
+    list-style: none;
+    display: inline-block;                 /* 横並びにする */
+    justify-content: center;       /* 中央揃えにする */
+    padding:0 100px;                     /* 各リストの間隔 */
+    margin-top: 90px;
+  } 
+
+
+
+   /* ここからshow1.html-show6.html */
+
+.level-content {
+  text-align: center;
+  margin-top: 90px;
+}
+
+
+
+  img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#shareButton {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#shareButton:hover {
+  background-color: #0d8ddc;
+}
+
+.level {
+  text-align: center;
+  margin-top: 90px;
+}
+
+/* ここからquestion3 */
+
+.scary {
+  color: red;
+  font-size: 24px;
+  animation: flicker 1s infinite;
+  text-shadow: 0 0 5px red;
+}
+
+/* アニメーションの定義 */
+@keyframes flicker {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+
+.question3-backgrouond-color {
+background-color: black;
+padding: 150px 0;
+}
+
+
+/* ここからquestion6 */
+
+.question6-link {
+  text-decoration: none;
+  color: black;
+}
